@@ -20,7 +20,7 @@ namespace EFCoreModelAPI.Persistence
 
         protected override void OnModelCreating(ModelBuilder Biulder) 
         {
-            //Used FLUEN API to configuration of data base
+            //Used FLUENT API to configuration of data base
             Biulder
                 .Entity<VideoStore>()
                 .ToTable("VideoStore");
